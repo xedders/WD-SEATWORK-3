@@ -1,0 +1,218 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Garamond, serif;
+    background-color: #f3f4f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+    font-size: 1.3em;
+}
+
+/* Header Styles */
+.header {
+    position:relative;
+    text-align:center;
+    background: linear-gradient(60deg, rgb(241, 120, 50) 0%, rgba(0,172,193,1) 100%);
+    color:white;
+    height: 100vh;
+}
+
+.header .inner-header {
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    font-family: Garamond, serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.header .waves {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -7px; /* Fix for safari gap */
+    min-height: 100px;
+    max-height: 150px;
+}
+
+.header .content {
+    position: relative;
+    height: 20vh;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Waves Animation */
+.header .parallax > use {
+    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite;
+}
+
+.header .parallax > use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+}
+
+.header .parallax > use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+
+.header .parallax > use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+}
+
+.header .parallax > use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+}
+
+@keyframes move-forever {
+    0% {
+        transform: translate3d(-90px,0,0);
+    }
+    100% { 
+        transform: translate3d(85px,0,0);
+    }
+}
+
+/* Site Section */
+.site {
+    padding: 5em 0;
+    text-align: center;
+    background-color: #efefef;
+    font-size: 0.8em;
+    color: #444;
+    position: relative;
+}
+
+.site nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.site a.button-81 {
+    background-color: #ff651e;
+    color: #fff;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 1rem 2rem;
+    margin: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.site a.button-81:hover {
+    background-color: #e65c00; 
+}
+
+/* Blockquote Section */
+blockquote {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-left: 5px solid #b35700; 
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: left;
+    position: relative;
+}
+
+blockquote img {
+    float: left;
+    margin-right: 20px;
+    max-width: 100px; /* Adjusted max-width */
+    border-radius: 50%; /* Rounded image */
+}
+
+blockquote p {
+    margin: 0;
+}
+
+blockquote footer {
+    display: block;
+    margin-top: 1em;
+    font-size: 1em;
+    color: #555;
+}
+
+/* Button Styles */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button-75 {
+    align-items: center;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border: 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-family: "Codec cold", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 54px;
+    justify-content: center;
+    letter-spacing: .4px;
+    line-height: 1;
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 0 10px;
+}
+
+.button-75:hover {
+    opacity: 0.9;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.inner-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    font-size: 14px;
+}
