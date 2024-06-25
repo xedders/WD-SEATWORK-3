@@ -74,5 +74,10 @@ button {
     background-color: rgba(0, 136,168.1);
     border: none;
     border-radius: 50px;
-    cursor:
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+nutton:hover {
+    background-color: rgba(0, 136,168.0.8);
 }
