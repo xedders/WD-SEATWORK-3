@@ -52,7 +52,8 @@ h1{
 
     .logo { /*design 2*/
         cursor: pointer;
-        height: 1%;
+        width: auto;
+        height: 10px;
     }
 
     .nav_links li {
@@ -334,7 +335,8 @@ h1{
 
     .logo { /*design 2*/
         cursor: pointer;
-        height: 1%;
+        width: auto;
+        height: 10px;
     }
 
     .nav_links li {
