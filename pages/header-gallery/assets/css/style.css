@@ -52,6 +52,7 @@ h1{
 
     .logo { /*design 2*/
         cursor: pointer;
+        height: 20px;
     }
 
     .nav_links li {
