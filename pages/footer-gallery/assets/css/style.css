@@ -366,58 +366,85 @@ h1{
 
 
 
-.design1-animation{
+.design1-animation {
     body {
         margin: 0;
         font-family: Arial, sans-serif;
     }
-    
+
     .footer {
         background-color: #bde1ff;
         color: rgb(0, 0, 0);
         text-align: center;
         padding: 20px 0;
     }
-    
+
     .footer-content {
         max-width: 800px;
         margin: 0 auto;
     }
-    
+
     .footer h1 {
         font-size: 24px;
         margin: 0;
         padding-bottom: 20px;
+        transition: transform 0.3s ease;
     }
-    
+
+    .footer h1:hover {
+        transform: scale(1.2);
+    }
+
     .social-icons {
         display: flex;
         justify-content: center;
         gap: 20px;
         padding-bottom: 20px;
     }
-    
+
     .social-icons img {
         width: 30px;
         height: 30px;
+        transition: transform 0.3s ease;
     }
 
-    .social-icons:hover {
+    .social-icons img:hover {
         transform: scale(1.2);
-      }
-    
+    }
+
     footer hr {
         border: 0;
         border-top: 1px solid rgba(255, 255, 255, 0.658);
         margin: 20px 0;
     }
-    
+
     footer p {
         font-size: 14px;
         margin: 0;
+        transition: transform 0.3s ease;
     }
-    
+
+    footer p:hover {
+        transform: scale(1.2);
+    }
+
+    .social-icons img[alt="Twitter"]:hover {
+        transform: scale(1.2);
+    }
+
+    .social-icons img[alt="instagram"]:hover {
+        transform: scale(1.2);
+    }
+
+    .social-icons img[alt="YouTube"]:hover {
+        transform: scale(1.2);
+    }
+
+    .social-icons img[alt="Skype"]:hover {
+        transform: scale(1.2);
+    }
 }
+
 
 .design2-animation{
     body {
