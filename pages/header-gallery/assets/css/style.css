@@ -585,6 +585,9 @@ h1{
         height: 50px;
     }
     
+    .logo:hover {
+        transform: scale(1.2);
+      }
 }
 .button-51 {
     background-color: transparent;
