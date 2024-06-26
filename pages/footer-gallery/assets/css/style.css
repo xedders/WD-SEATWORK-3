@@ -401,6 +401,10 @@ h1{
         width: 30px;
         height: 30px;
     }
+
+    .social-icons:hover {
+        transform: scale(1.2);
+      }
     
     footer hr {
         border: 0;
