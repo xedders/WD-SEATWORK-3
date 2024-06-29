@@ -76,8 +76,8 @@ body {
 }
 
 .soft-rectangle {
-    width: 500px; /* Adjust the size as needed */
-    height: 1000px; /* Adjust the size as needed */
+    width: 40vw; /* Adjust the size as needed */
+    height: 66.67vw; /* Adjust the size as needed */
     background-color: #ffffff;
     border-radius: 20px; /* Soften the edges */
     opacity: 60%;
