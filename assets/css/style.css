@@ -74,18 +74,12 @@ body {
     margin: 0;
     background-color: #f0f0f0;
 }
-
-.soft-rectangle {
-    width: 40vw; /* Adjust the size as needed */
-    height: 66.67vw; /* Adjust the size as needed */
+.body {
     background-color: #ffffff;
-    border-radius: 20px; /* Soften the edges */
-    opacity: 60%;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px 0;
+    opacity: 50%;
 }
 body {
     background-image: url('../img/bg.gif');
