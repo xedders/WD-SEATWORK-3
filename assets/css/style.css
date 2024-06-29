@@ -32,8 +32,8 @@ body {
 }
 
 .button-24 {
-  background: #FF4742;
-  border: 1px solid #FF4742;
+  background: #42aaff;
+  border: 1px solid #42aaff;
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
   box-sizing: border-box;
@@ -60,9 +60,14 @@ body {
 .button-24:active {
   background-color: initial;
   background-position: 0 0;
-  color: #FF4742;
+  color: #ffffff;
 }
 
 .button-24:active {
   opacity: .5;
+}
+.rectangle {
+    height: 50px;
+    width: 100px;
+    background-color: #ffffff;
 }
