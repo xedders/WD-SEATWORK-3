@@ -1,66 +1,24 @@
-/* Reset default margin and padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Basic styling for the body */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    text-align: center;
-    padding: 20px;
-}
-
-/* Header styling */
-header {
-    background-color: #96c3ff;
-    color: #fff;
-    padding: 20px;
-}
-
-/* Main content section */
-.content {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f3f4f6;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    margin: 0;
 }
-
-/* Call-to-action button */
-.cta-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #739ac4;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+.title-container {
+    text-align: center;
+    margin-bottom: 20px;
 }
-
-.cta-button:hover {
-    background-color: #86a9cf;
-}
-
-/* Navigation buttons */
-.button-container1{
-display: flex;
-justify-content: center;
-gap: 10px;
-}
-.button-container2 {
+.button-container {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
-
-.navigation-button1 {
-    background-color: #86a9cf;
+.navigation-button {
+    background-color: #007bff;
     color: white;
     border: none;
     border-radius: 5px;
@@ -69,22 +27,42 @@ gap: 10px;
     font-size: 16px;
     cursor: pointer;
 }
-.navigation-button2 {
-    background-color: #86a9cf;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
+.navigation-button:hover {
+    background-color: #0056b3;
 }
 
-.navigation-button1:hover {
-    background-color: #739ac4;
-    transform: scale(1.3);
+.button-24 {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
 }
-.navigation-button2:hover {
-    background-color: #739ac4;
-    transform: scale(1.3);
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-24:active {
+  opacity: .5;
 }
