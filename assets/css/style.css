@@ -71,3 +71,17 @@ body {
     width: 100px;
     background-color: #ffffff;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the background image for the whole page */
+body {
+    background-image: url('../img/bg.gif'); /* Replace 'bg-image.jpg' with your actual image file */
+    background-size: cover; /* Scale the image to cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-attachment: fixed; /* Keep the image fixed while scrolling */
+    /* Add other styles as needed */
+}
