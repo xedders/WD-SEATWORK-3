@@ -32,12 +32,12 @@ body {
 }
 
 .button-24 {
-  background: #42aaff;
-  border: 1px solid #42aaff;
+  background: #000000;
+  border: 1px solid #ffffff;
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #000000;
   cursor: pointer;
   display: inline-block;
   font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
@@ -60,7 +60,7 @@ body {
 .button-24:active {
   background-color: initial;
   background-position: 0 0;
-  color: #ffffff;
+  color: #233023;
 }
 
 .button-24:active {
@@ -69,19 +69,16 @@ body {
 .rectangle {
     height: 50px;
     width: 100px;
-    background-color: #ffffff;
+    background-color: #233023;
 }
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* Set the background image for the whole page */
 body {
-    background-image: url('../img/bg.gif'); /* Replace 'bg-image.jpg' with your actual image file */
-    background-size: cover; /* Scale the image to cover the entire viewport */
-    background-repeat: no-repeat; /* Prevent image repetition */
-    background-attachment: fixed; /* Keep the image fixed while scrolling */
-    /* Add other styles as needed */
+    background-image: url('../img/bg.gif');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
 }
