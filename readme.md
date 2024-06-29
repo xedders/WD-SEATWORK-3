@@ -57,9 +57,12 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+Seatwork 3 is a website that consists of a landing page with the name of the project and two
+buttons that navigate to two different pages, the header and the footer galleries. These galleries
+each have ten header and fooder designs in total, in which five have static designs and the other half
+having animated designs. This project is to help us become familiar in using animated and static designs
+in creating headers and footers in a website. 
 
-Guiding Question:
 - The project is to create a website with different header and footer designs,
 each design should have static and animated designs.
 - The purpose of this project is to practice the use of static and animated designs,

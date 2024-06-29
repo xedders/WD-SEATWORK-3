@@ -1,32 +1,46 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f3f4f6;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-}
-.title-container {
+    background-color: #f9f9f9;
     text-align: center;
-    margin-bottom: 20px;
+    padding: 20px;
 }
-.button-container {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
 }
-.navigation-button {
-    background-color: #007bff;
-    color: white;
-    border: none;
+
+/* Main content section */
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
     border-radius: 5px;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-.navigation-button:hover {
-    background-color: #0056b3;
+
+/* Call-to-action button */
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #739ac4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #739ac4;
 }
