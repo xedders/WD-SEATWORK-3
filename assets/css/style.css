@@ -11,14 +11,17 @@ body {
     background-color: #f9f9f9;
     text-align: center;
     padding: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Header styling */
 header {
-    background-color: #333;
+    background-color: #96c3ff;
     color: #fff;
     padding: 20px;
-}
+    align-items: center;
+    justify-content: center;
 
 /* Main content section */
 .content {
@@ -28,6 +31,8 @@ header {
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
 }
 
 /* Call-to-action button */
@@ -39,6 +44,8 @@ header {
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
+    align-items: center;
+    justify-content: center;
 }
 
 .cta-button:hover {
