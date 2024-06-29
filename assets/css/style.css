@@ -43,4 +43,28 @@ header {
 
 .cta-button:hover {
     background-color: #739ac4;
+
 }
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.navigation-button {
+    background-color: #86a9cf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.navigation-button:hover {
+    background-color: #86a9cf;
+}
+
+.button-container:hover {
+    transform: scale(1.3);
+  }
+
