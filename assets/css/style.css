@@ -45,7 +45,12 @@ header {
     background-color: #739ac4;
 
 }
-.button-container {
+.button-container1 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.button-container2 {
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -64,7 +69,10 @@ header {
     background-color: #86a9cf;
 }
 
-.button-container:hover {
+.button-container1:hover {
     transform: scale(1.3);
-  }
+}
+.button-container2:hover {
+    transform: scale(1.3);
+}
 
