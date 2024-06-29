@@ -66,10 +66,20 @@ body {
 .button-24:active {
   opacity: .5;
 }
-.rectangle {
-    height: 500px;
-    width: 1000px;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.soft-rectangle {
+    width: 200px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
     background-color: #ffffff;
+    border-radius: 20px; /* Soften the edges */
     opacity: 60%;
 }
 * {
